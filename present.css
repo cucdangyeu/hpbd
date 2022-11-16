@@ -28,7 +28,7 @@ html, body {
 }
 
 .wrap-present {
-  padding-right: 60;
+  padding-right: 180;
   width: 100%;
   display: flex;
   align-self: flex-end;
@@ -36,6 +36,7 @@ html, body {
 
 .present-box { 
   transform-style: preserve-3d;
+  
   width: 200px;
   height: 200px;
   margin: auto;
