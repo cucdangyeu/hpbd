@@ -76,8 +76,9 @@
   <script src="present.js"></script>
   <script>
     {
-      var w = Math.max(document.documentElement.clientWidth, window.innerWidth);
-      if(w < 800){
+      var isMobile = ('ontouchstart' in document.documentElement && /mobi/i.test(navigator.userAgent));
+     
+      if(isMobile){
     document.getElementById('card').classList.add('card-show-right');
     document.getElementById('card1').classList.add('card1-show-right');
     document.getElementById('wrap-present').classList.add('wrap-present-center');
