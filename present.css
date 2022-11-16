@@ -28,12 +28,13 @@ html, body {
 }
 
 .wrap-present {
+  padding-right: 60;
   width: 100%;
   display: flex;
   align-self: flex-end;
 }
 
-.present-box {
+.present-box { 
   transform-style: preserve-3d;
   width: 200px;
   height: 200px;
@@ -60,23 +61,24 @@ html, body {
   visibility: visible;
 }
 .present-box.open .present .img-wrap {
+  padding-right: 60;
   opacity: 1;
   transition: transform 600ms 800ms, opacity 800ms 200ms;
   transform: translateZ(0px);
 }
 .present-box.open > .side {
-  opacity: 0.1;
+  opacity: 0;
   transition: opacity 500ms 600ms;
 }
 .present-box.open > .side.back {
-  opacity: 0.1;
+  opacity: 0;
   transform: translateZ(-101px) rotateY(180deg);
 }
 .present-box.open > .side.front {
   transition: transform 800ms 0s, opacity 500ms 600ms, width 600ms 600ms;
   transform: translateZ(100px) rotateY(190deg) translateX(0px);
   transform-origin: 0% 0%;
-  opacity: 0.01;
+  opacity: 0;
   width: 0;
 }
 
