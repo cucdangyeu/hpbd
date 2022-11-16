@@ -27,7 +27,7 @@ html, body {
   align-self: flex-end;
 }
 
-.wrap-present {
+#wrap-present {
   padding-right: 180;
   width: 100%;
   display: flex;
@@ -175,6 +175,11 @@ html, body {
 }
 .present-box > .side.front {
   transform: translateZ(100px);
+}
+.wrap-present-center {
+  padding-right: 0 !important;
+  padding-left: 40vw !important;
+  padding-top: 60vh !important;
 }
 
 @-webkit-keyframes rotate {
