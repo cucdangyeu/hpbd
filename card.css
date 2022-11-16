@@ -63,16 +63,15 @@
         display: none;
         
     }
-    .card-show-right{
+    .card-show-mobile{
         opacity: 1 !important;
         transition: all 2s;
         transform: rotate(0deg) !important;
         width: 300px !important;
         margin: 0% !important;
-        top: auto !important;
-        bottom: 0 !important;
+        margin-top: 50vh !important;
     }
-    .card1-show-right{
+    .card1-show-mobile{
         opacity: 1 !important;
         transition: all 2s;
         transform: rotate(0deg) !important;
