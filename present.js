@@ -24,7 +24,6 @@ function init() {
   if (gift_url) {
     _giftLink = document.createElement("a");
     _giftLink.href = gift_url;
-    _giftLink.target = "_blank";
     presentImage.appendChild(_giftLink);
   }
   
