@@ -35,8 +35,7 @@ html, body {
 }
 
 .present-box { 
-  transform-style: preserve-3d;
-  
+  transform-style: preserve-3d;  
   width: 200px;
   height: 200px;
   margin: auto;
@@ -177,9 +176,8 @@ html, body {
   transform: translateZ(100px);
 }
 .wrap-present-center {
+  align-self: center !important;
   padding-right: 0 !important;
-  padding-left: 40vw !important;
-  padding-top: 60vh !important;
 }
 
 @-webkit-keyframes rotate {
