@@ -1,7 +1,7 @@
 const nameGirl = 'Cục đáng yêu';
 const giftUrl = 'https://cucdangyeu.github.io/cucdangyeu/';
 const eventName = 'Happy birthday';
-const titleCard = 'Cục đáng yêu';
+const titleCard = 'Hey! Cục đáng yêu';
 const contentCard = 'There’s nothing more precious in this world to me than your sweet smile. On this day, I want to make it even bigger on your face. Happy birthday!';
 
 // phần dưới dành cho các bạn biết code, nếu muốn chỉnh ảnh đơn giản với base64
