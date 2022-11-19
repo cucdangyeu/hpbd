@@ -179,6 +179,9 @@ html, body {
   align-self: center !important;
   padding-right: 0 !important;
 }
+.present-box.open .present .img-wrap-center {
+  padding-right: 0 !important;
+}
 
 @-webkit-keyframes rotate {
   100% {
